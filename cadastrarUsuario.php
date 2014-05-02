@@ -7,42 +7,18 @@
 
     <!-- Estilos, CSS-->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 60px;
         padding-bottom: 40px;
       }
     </style>
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="ico/favicon.png">
 
     <!-- Scripts-->
     <script src="http://static.scripting.com/github/bootstrap2/js/jquery.js"></script>
     <script src="http://static.scripting.com/github/bootstrap2/js/bootstrap-transition.js"></script>
     <script src="http://static.scripting.com/github/bootstrap2/js/bootstrap-modal.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="bootstrap/js/vendor/jquery-1.9.1.min.js"></script>
-    <script src="bootstrap/js/vendor/bootstrap.min.js"></script>
-    <script src="bootstrap/js/plugins.js"></script>
-    <script src="bootstrap/js/main.js"></script>
-    <script>
-      $(document).ready(function() {
-        $('#windowTitleDialog').bind('show', function () {
-          document.getElementById ("xlInput").value = document.title;
-          });
-        });
-      function closeDialog () {
-        $('#windowTitleDialog').modal('hide'); 
-        };
-      function okClicked () {
-        document.title = document.getElementById ("xlInput").value;
-        closeDialog ();
-        };
-    </script>  
 
 </head> <!-- Fim do Cabeçalho -->
 
