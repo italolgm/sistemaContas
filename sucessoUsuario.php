@@ -3,12 +3,11 @@
 
 <head> <!-- Inicio do cabeçalho-->
     <meta charset="utf-8">
-    <title>Cadastrar Delegacia</title>    
+    <title>Usuário cadastrado com sucesso!</title>    
 
     <!-- Estilos, CSS-->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet"> 
-
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -17,14 +16,10 @@
     </style>
 
     <!-- Scripts-->
-    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    
     <script src="http://static.scripting.com/github/bootstrap2/js/jquery.js"></script>
     <script src="http://static.scripting.com/github/bootstrap2/js/bootstrap-transition.js"></script>
     <script src="http://static.scripting.com/github/bootstrap2/js/bootstrap-modal.js"></script>
-    
-    
+
 </head> <!-- Fim do Cabeçalho -->
 
 
@@ -43,14 +38,6 @@
                         <ul class="nav">
                             <a class="brand" href="index.php"><img src="img/logo3.png" width="40"></a>
                             <li class="active"><a href="index.php">Home</a></li>
-                            <li class="dropdown">
-                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cadastrar<b class="caret"></b></a>
-                              <ul class="dropdown-menu">
-                                <li><a href="cadastrarUsuario.php">Usuário</a></li>
-                                <li><a href="cadastrarDelegacia.php">Delegacia</a></li>
-                                <li><a href="cadastrarFornecedor.php">Fornecedor</a></li>
-                              </ul>
-                            </li> 
                             <li><a data-toggle="modal" href="#windowabout">Sobre</a></li>
                             <li><a data-toggle="modal" href="#windowcontact">Contato</a></li>
                         </ul>
@@ -94,75 +81,12 @@
         </div>
 
     <!-- Fim do menu de navegação-->
-        
+
     <div class="container">
            
         <br>
-        <H1>Cadastrar Delegacia</H1>
-        <p>Cadastrar nova delegacia.</p>
+        <h2>Usuário cadastrado com sucesso!</h2>
+        <h4>Seu acesso está sujeito a aprovação do administrador. Quando liberado, você receberá um e-mail de confirmação.</h4>
 
-    <!-- Formulário de cadastro-->
-
-      <form class="form-horizontal">
-    <fieldset>
-
-    <legend></legend>
-
-    
-    <div class="control-group">
-      <label class="control-label" for="textinput">Nome</label>
-      <div class="controls">
-        <input id="textinput" name="textinput" type="text" placeholder="Nome da unidade" class="input-xlarge">
-        
-      </div>
-    </div>
-
-    <div class="control-group">
-      <label class="control-label" for="textinput">CNPJ</label>
-      <div class="controls">
-        <input id="textinput" name="textinput" type="text" placeholder="xx.xxx.xxx/xxxx-xx" class="input-large">
-        
-      </div>
-    </div>
-
-    <div class="control-group">
-      <label class="control-label" for="selectbasic">Cidade</label>
-      <div class="controls">
-        <select id="selectbasic" name="selectbasic" class="input-xlarge">
-          <option>Option one</option>
-          <option>Option two</option>
-        </select>
-      </div>
-    </div>
-
-    <div class="control-group">
-      <label class="control-label" for="textinput">Endereço</label>
-      <div class="controls">
-        <input id="textinput" name="textinput" type="text" placeholder="Endereço, número, complemento" class="input-xlarge">
-        
-      </div>
-    </div>
-
-    <div class="control-group">
-      <label class="control-label" for="textinput">Telefone</label>
-      <div class="controls">
-        <input id="textinput" name="textinput" type="text" placeholder="(xx) 1234-5678" class="input-large">
-        
-      </div>
-    </div>
-
-    <div class="control-group">
-        <label class="control-label" for="button1id"></label>
-        <div class="controls">
-          <button id="button1id" name="button1id" class="btn btn-success">Salvar</button>
-          <button id="button2id" name="button2id" class="btn btn-primary">Limpar</button>
-        </div>
-      </div>
-
-    </fieldset>
-    </form>
-  <!-- Fim do formulário de cadastro -->           
-
-    </div>
 </body>
 </html>

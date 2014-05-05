@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <title>Cadastrar Fornecedor</title>
 
-
     <!-- Estilos, CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
@@ -18,6 +17,9 @@
     </style>   
 
     <!-- Scripts -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
     <script src="http://static.scripting.com/github/bootstrap2/js/jquery.js"></script>
     <script src="http://static.scripting.com/github/bootstrap2/js/bootstrap-transition.js"></script>
     <script src="http://static.scripting.com/github/bootstrap2/js/bootstrap-modal.js"></script>

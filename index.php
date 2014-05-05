@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <title>Sistema de Contas - Degepol</title>
 
-
     <!-- Estilos, CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
@@ -43,6 +42,9 @@
     </style>     
 
     <!-- Scripts -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>   
+    <script src="js/bootstrap.min.js"></script>
+
     <script src="http://static.scripting.com/github/bootstrap2/js/jquery.js"></script>
     <script src="http://static.scripting.com/github/bootstrap2/js/bootstrap-transition.js"></script>
     <script src="http://static.scripting.com/github/bootstrap2/js/bootstrap-modal.js"></script>
@@ -65,7 +67,7 @@
                             <a class="brand" href="index.php"><img src="img/logo3.png" width="40"></a>
                             <li class="active"><a href="index.php">Home</a></li>
                             <li class="dropdown">
-                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cadastrar<b class="caret"></b></a>
+                              <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Cadastrar<b class="caret"></b></a>
                               <ul class="dropdown-menu">
                                 <li><a href="cadastrarUsuario.php">Usuário</a></li>
                                 <li><a href="cadastrarDelegacia.php">Delegacia</a></li>
