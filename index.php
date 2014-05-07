@@ -62,21 +62,24 @@
                         <span class="icon-bar"></span>
                     </a>
 
-                    <div class="nav-collapse collapse">
+                    <div class="nav-collapse collapse">                        
                         <ul class="nav">
                             <a class="brand" href="index.php"><img src="img/logo3.png" width="40"></a>
-                            <li class="active"><a href="index.php">Home</a></li>
+                            <li ><a href="index.php">Home</a></li>
+                            <li><a  href="notaFiscal.php">Nota Fiscal</a></li>
+                            <li><a data-toggle="modal" href="">Relatórios</a></li>
                             <li class="dropdown">
-                              <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Cadastrar<b class="caret"></b></a>
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cadastrar<b class="caret"></b></a>
                               <ul class="dropdown-menu">
                                 <li><a href="cadastrarUsuario.php">Usuário</a></li>
                                 <li><a href="cadastrarDelegacia.php">Delegacia</a></li>
                                 <li><a href="cadastrarFornecedor.php">Fornecedor</a></li>
                               </ul>
-                            </li>                            
+                            </li> 
                             <li><a data-toggle="modal" href="#windowabout">Sobre</a></li>
                             <li><a data-toggle="modal" href="#windowcontact">Contato</a></li>
-                        </ul>                        
+                        </ul>
+                        
                     </div>
                 </div>
             </div>
